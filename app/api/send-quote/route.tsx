@@ -42,8 +42,8 @@ export async function POST(request: NextRequest) {
             
             <div style="margin-top: 30px; padding: 20px; background: #e8f4f8; border-radius: 8px; text-align: center;">
               <p style="margin: 0; color: #666;">
-                <strong>Fecha de solicitud:</strong> ${new Date().toLocaleString("es-ES")}
-              </p>
+                <strong>Fecha de solicitud:</strong> ${new Date().toLocaleString("es-VE", { timeZone: "America/Caracas" })}
+              </p>  
             </div>
           </div>
           
