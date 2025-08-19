@@ -49,7 +49,7 @@ export async function POST(request: NextRequest) {
           </div>
           
           <div style="background: #333; padding: 20px; text-align: center;">
-            <p style="color: white; margin: 0;">© 2024 Prealca.C.A - Empresa de Concreto</p>
+            <p style="color: white; margin: 0;">© 2025 Prealca.C.A - Empresa de Concreto</p>
           </div>
         </div>
       `,
