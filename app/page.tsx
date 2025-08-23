@@ -160,7 +160,7 @@ export default function PrealcaLanding() {
             </div>
             <div className="relative">
               <img
-                src="/public/VideoDron1.mp4"
+                src="/VideoDron1.mp4"
                 alt="Camión mezclador de concreto Prealca"
                 className="rounded-lg shadow-2xl"
               />
