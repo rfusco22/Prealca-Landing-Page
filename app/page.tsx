@@ -103,7 +103,7 @@ export default function PrealcaLanding() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <img 
-              src="/public/VideoDron1.mp4" alt="Proyecto residencial"  className="h-12 w-auto md:h-16"/>
+              src="/Logo Prealca Sin Fondo.png" alt="Proyecto residencial"  className="h-12 w-auto md:h-16"/>
           </div>
           <nav className="hidden md:flex items-center gap-6">
             <a href="#servicios" className="text-slate-700 hover:text-orange-600 transition-colors">
@@ -160,7 +160,7 @@ export default function PrealcaLanding() {
             </div>
             <div className="relative">
               <img
-                src="/concrete-mixer-delivery.png"
+                src="/public/VideoDron1.mp4"
                 alt="Camión mezclador de concreto Prealca"
                 className="rounded-lg shadow-2xl"
               />
