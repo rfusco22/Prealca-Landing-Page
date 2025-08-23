@@ -166,7 +166,7 @@ export default function PrealcaLanding() {
                 muted
                 playsInline
                 className="rounded-lg shadow-2xl w-full h-full object-cover"
-              >
+              ></video>
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-lg shadow-lg">
                 <div className="flex items-center gap-3">
                   <CheckCircle className="h-8 w-8 text-green-600" />
