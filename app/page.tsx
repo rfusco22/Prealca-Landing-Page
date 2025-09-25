@@ -159,14 +159,11 @@ export default function PrealcaLanding() {
               </div>
             </div>
             <div className="relative">
-              <video
-                src="/VideoDron1.mp4" // Ruta a tu archivo de video
-                autoPlay
-                loop
-                muted
-                playsInline
-                className="rounded-lg shadow-2xl w-full h-full object-cover"
-              ></video>
+              <img
+                src="/concrete-mixer-delivery.png"
+                alt="Camión mezclador de concreto Prealca"
+                className="rounded-lg shadow-2xl"
+              />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-lg shadow-lg">
                 <div className="flex items-center gap-3">
                   <CheckCircle className="h-8 w-8 text-green-600" />
@@ -406,7 +403,7 @@ export default function PrealcaLanding() {
                   <Phone className="h-6 w-6 text-orange-500" />
                   <div>
                     <p className="text-white font-semibold">Teléfono</p>
-                    <p className="text-slate-300">+58 212 555-0123</p>
+                    <p className="text-slate-300">+58 412292-8747</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -420,7 +417,7 @@ export default function PrealcaLanding() {
                   <MapPin className="h-6 w-6 text-orange-500" />
                   <div>
                     <p className="text-white font-semibold">Dirección</p>
-                    <p className="text-slate-300">Zona Industrial La Trinidad, Caracas, Venezuela</p>
+                    <p className="text-slate-300">Av. 2, Local Parcela Nro. E-37, Zona Industrial Santa Cruz, Estado Aragua, Santa Cruz, Aragua, Venezuela. Zona Postal 2123.</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
