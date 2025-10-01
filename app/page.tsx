@@ -228,7 +228,7 @@ export default function PrealcaLanding() {
                 <ul className="space-y-2 text-slate-600">
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-green-600" />
-                    Resistencias de 175 a 350 kg/cm²
+                    Resistencias de 180 a 310 kg/cm²
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-green-600" />
@@ -306,24 +306,13 @@ export default function PrealcaLanding() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="overflow-hidden border-slate-200 hover:shadow-lg transition-shadow">
               <div className="aspect-video bg-slate-200">
-                <img src="/public/prealca1.jpeg" alt="Proyecto residencial" className="w-full h-full object-cover" />
+                <img src="/prealca1.jpeg" alt="Proyecto residencial" className="w-full h-full object-cover" />
               </div>
               <CardHeader>
                 <CardTitle className="text-slate-900">Complejo Residencial Vista Verde</CardTitle>
                 <CardDescription>200 apartamentos con concreto de alta resistencia</CardDescription>
               </CardHeader>
             </Card>
-            
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="overflow-hidden border-slate-200 hover:shadow-lg transition-shadow">
-              <div className="aspect-video bg-slate-200">
-                <img src="/placeholder-nwtrk.png" alt="Proyecto residencial" className="w-full h-full object-cover" />
-              </div>
-              <CardHeader>
-                <CardTitle className="text-slate-900">Complejo Residencial Vista Verde</CardTitle>
-                <CardDescription>200 apartamentos con concreto de alta resistencia</CardDescription>
-              </CardHeader>
-            </Card>            
 
             <Card className="overflow-hidden border-slate-200 hover:shadow-lg transition-shadow">
               <div className="aspect-video bg-slate-200">
