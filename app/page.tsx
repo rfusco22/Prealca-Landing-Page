@@ -308,11 +308,29 @@ export default function PrealcaLanding() {
               <div className="aspect-video bg-slate-200">
                 <img src="/placeholder-nwtrk.png" alt="Proyecto residencial" className="w-full h-full object-cover" />
               </div>
+            </Card>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <Card className="overflow-hidden border-slate-200 hover:shadow-lg transition-shadow">
+              <div className="aspect-video bg-slate-200">
+                <img src="/placeholder-nwtrk.png" alt="Proyecto residencial" className="w-full h-full object-cover" />
+              </div>
               <CardHeader>
                 <CardTitle className="text-slate-900">Complejo Residencial Vista Verde</CardTitle>
                 <CardDescription>200 apartamentos con concreto de alta resistencia</CardDescription>
               </CardHeader>
             </Card>
+            
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <Card className="overflow-hidden border-slate-200 hover:shadow-lg transition-shadow">
+              <div className="aspect-video bg-slate-200">
+                <img src="/placeholder-nwtrk.png" alt="Proyecto residencial" className="w-full h-full object-cover" />
+              </div>
+              <CardHeader>
+                <CardTitle className="text-slate-900">Complejo Residencial Vista Verde</CardTitle>
+                <CardDescription>200 apartamentos con concreto de alta resistencia</CardDescription>
+              </CardHeader>
+            </Card>            
 
             <Card className="overflow-hidden border-slate-200 hover:shadow-lg transition-shadow">
               <div className="aspect-video bg-slate-200">
@@ -413,14 +431,14 @@ export default function PrealcaLanding() {
                   <Mail className="h-6 w-6 text-orange-500" />
                   <div>
                     <p className="text-white font-semibold">Email</p>
-                    <p className="text-slate-300">info@prealca.com.ve</p>
+                    <p className="text-slate-300">Prealca@hotmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
                   <MapPin className="h-6 w-6 text-orange-500" />
                   <div>
                     <p className="text-white font-semibold">Dirección</p>
-                    <p className="text-slate-300">Av. 2, Local Parcela Nro. E-37, Zona Industrial Santa Cruz, Estado Aragua, Santa Cruz, Aragua, Venezuela. Zona Postal 2123.</p>
+                    <p className="text-slate-300">Zona Industrial Santa Cruz, Estado Aragua, Venezuela.</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -569,9 +587,9 @@ export default function PrealcaLanding() {
             <div>
               <h4 className="text-white font-semibold mb-4">Contacto</h4>
               <ul className="space-y-2 text-slate-400">
-                <li>+58 212 555-0123</li>
-                <li>info@prealca.com.ve</li>
-                <li>Caracas, Venezuela</li>
+                <li>+58 412292-8717</li>
+                <li>Prealca@hotmail.com</li>
+                <li>Aragua, Venezuela</li>
               </ul>
             </div>
           </div>
