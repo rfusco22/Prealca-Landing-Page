@@ -306,7 +306,7 @@ export default function PrealcaLanding() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="overflow-hidden border-slate-200 hover:shadow-lg transition-shadow">
               <div className="aspect-video bg-slate-200">
-                <img src="/prealca1.jpeg" alt="Proyecto residencial" className="w-full h-full object-cover" />
+                <img src="/prealca1.jpg" alt="Proyecto residencial" className="w-full h-full object-cover" />
               </div>
               <CardHeader>
                 <CardTitle className="text-slate-900">Complejo Residencial Vista Verde</CardTitle>
